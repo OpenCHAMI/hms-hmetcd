@@ -37,7 +37,7 @@ This interface provides methods for:
 
 ## Typical Usage Flow
 
-Typically and application will begin by opening a handle to the ETCD K/V store.
+Typically an application will begin by opening a handle to the ETCD K/V store.
 
 Once that is done, the application can store, fetch, and delete K/V pairs
 as needed.
