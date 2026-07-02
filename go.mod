@@ -1,6 +1,6 @@
 module github.com/Cray-HPE/hms-hmetcd
 
-go 1.23
+go 1.25.0
 
 require (
 	go.etcd.io/etcd/api/v3 v3.5.16
@@ -21,8 +21,8 @@ require (
 	github.com/golang/protobuf v1.5.4 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/net v0.30.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	google.golang.org/grpc v1.68.0 // indirect
 )
